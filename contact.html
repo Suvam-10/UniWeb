@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheDaudgy School of Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Babylonica&family=Baloo+Bhaina+2&family=Open+Sans:wght@300;500;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo2.png" alt=""></a>
+            <div class="nav-ab" id="navab">
+                <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Contact Us</h1>
+
+    </section>
+
+    <!-- ---------contact us content------ -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d14771.893934124442!2d84.86721619999999!3d22.241084850000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1688228304486!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>XYZ Road , ABC Building</h5>
+                        <p>Rourkela , Odisha , India</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+91 7676788995</h5>
+                        <p>Monday to Friday , 10AM to 6pm</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>thedaudgyst@gmail.com</h5>
+                        <p>Mail us your Queries.</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="course" placeholder="Enter Your course" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button class="hero-btn blue-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- ------------footer-------- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est fuga ducimus incidunt sapiente quibusdam
+            distinctio laboriosam eius nemo. <br>Exercitationem corporis ex vero sit laboriosam animi odit accusantium
+            dolor inventore libero?</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-------------JavaScript------------------->
+    <script>
+        var navLinks = document.getElementById("navab")
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200";
+        }
+
+    </script>
+    <!-------------JavaScript------------------->
+
+</body>
+
+</html>
