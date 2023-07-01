@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheDaudgy School of Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Babylonica&family=Baloo+Bhaina+2&family=Open+Sans:wght@300;500;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo2.png" alt=""></a>
+            <div class="nav-ab" id="navab">
+                <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Courses</h1>
+
+    </section>
+
+    <!-- ---------Our courses content------ -->
+    
+    <section class="course">
+        <h1>Courses we offer</h1>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, delectus?</p>
+
+         <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda quos ipsa magnam ducimus vel blanditiis adipisci odit quasi tenetur necessitatibus!</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda quos ipsa magnam ducimus vel blanditiis adipisci odit quasi tenetur necessitatibus!</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduate</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda quos ipsa magnam ducimus vel blanditiis adipisci odit quasi tenetur necessitatibus!</p>
+            </div>
+         </div>
+    </section>
+
+    <!----------facilities------------>
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta sed mollitia soluta impedit eligendi itaque libero voluptatibus, quibusdam placeat quo.</p>
+
+        <div class="row">
+           <div class="facilities-col">
+               <img src="images/library.png">
+               <h3>World Class Library</h3>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum facere dignissimos assumenda ea magni dolorum.</p>
+           </div>
+           <div class="facilities-col">
+               <img src="images/basketball.png">
+               <h3>World Class Indoors</h3>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum facere dignissimos assumenda ea magni dolorum.</p>
+           </div>
+           <div class="facilities-col">
+               <img src="images/cafeteria.png">
+               <h3>Tasty & Healhty Food</h3>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum facere dignissimos assumenda ea magni dolorum.</p>
+           </div>
+        </div>
+   </section>
+
+    <!-- ------------footer-------- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est fuga ducimus incidunt sapiente quibusdam
+            distinctio laboriosam eius nemo. <br>Exercitationem corporis ex vero sit laboriosam animi odit accusantium
+            dolor inventore libero?</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-------------JavaScript------------------->
+    <script>
+        var navLinks = document.getElementById("navab")
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200";
+        }
+
+    </script>
+    <!-------------JavaScript------------------->
+
+</body>
+
+</html>
